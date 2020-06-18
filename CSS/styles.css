@@ -1,14 +1,14 @@
-* {
-    box-sizing: border-box;
-}
 
 /* ================================= 
   Base Element Styles
 ==================================== */
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
     text-align: center;
     font-family: "Helvetica neue", sans-serif;
     line-height: 1.5;
@@ -16,27 +16,75 @@ body {
 
 img {
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
+/* Navigation */
+
 .name {
     font-size: 1.5em;
     margin: 0 auto;
 }
 
+.main-nav {
+    border: 5px solid red;
+}
+
+.main-nav li {
+    border: 5px solid blue;
+}
+
+.main-nav,
 .main-nav a {
-    text-align: center;
     display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer ul {
+    border: 5px solid red;
+}
+
+footer li {
+    border: 5px solid blue;
 }
 
 /* ================================= 
   Media Queries
 ==================================== */
 
+@media (min-width: 768px) {
+
+    body {
+        border: 5px solid green;
+    }
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    body {
+        border: 10px solid yellow
+    }
 
 
 	/* ---- Float clearfix ---- */
@@ -45,4 +93,5 @@ img {
 		content: " ";
 		display: table;
 		clear: both;
-	}
+    }
+}
