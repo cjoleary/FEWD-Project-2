@@ -1,3 +1,48 @@
 * {
     box-sizing: border-box;
 }
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+body {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-family: "Helvetica neue", sans-serif;
+    line-height: 1.5;
+  }
+
+img {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.name {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.main-nav a {
+    text-align: center;
+    display: block;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
