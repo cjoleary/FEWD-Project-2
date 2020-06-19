@@ -12,13 +12,13 @@ body {
     text-align: center;
     font-family: "Helvetica neue", sans-serif;
     line-height: 1.5;
-    color: #2f2f2f;
-    background-color: #d9e4ea;
+    color: whitesmoke;
+    background-color: #033f90;
   }
 
 h2 {
     text-transform: uppercase;
-    font-size: .9em;
+    font-size: 1em;
 }
 
 img {
@@ -85,12 +85,27 @@ a {
 
 .portfolio {
     background-color: whitesmoke;
+    color: #2f2f2f;
     margin: 0 auto;
+    margin-bottom: 50px;
     padding-top: 40px;
 }
 
 .portfolio p {
     padding: 0 10px;
+}
+
+.skills {
+    background-color: whitesmoke;
+    color: #2f2f2f;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.skills img {
+    background-color: whitesmoke;
+    max-width: 50%;
+    padding-bottom: 35px;
 }
 
 .main-content {
@@ -108,13 +123,13 @@ a {
 
 .footer-nav {
     padding: 25px 0 12px;
-    border-top: 2px solid #2f2f2f;
+    border-top: 2px solid whitesmoke;
     display: block;
 }
 
 .footer-nav a {
     text-transform: uppercase;
-    color: #2f2f2f;
+    color: whitesmoke;
     font-size: .8em;
 }
 
@@ -149,7 +164,8 @@ a {
         display: inline-block;
         margin: 10px;
         padding: 10px 20px;
-        background-color: #d9e4ea;
+        background-color: #033f90;
+        color: whitesmoke;
     }
 
     .profile-image {
@@ -224,17 +240,40 @@ a {
 
 @media (min-width: 1024px) {
 
+    body {
+        max-width: 1150px;
+        padding: 25px;
+    }
+
+    .main-header {
+        padding: 0 10px;
+    }
+
+    .name {
+        float: left;
+    }
+
+    .main-nav {
+        float: right;
+    }
+
+    .main-nav a {
+        margin: 10px 0 0;
+        padding: 10px 15px;
+        background-color: #033f90;
+        color: whitesmoke;
+    }
+
     .header {
         padding: 0 25px;
     }
 
     .intro {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     .portfolio {
         width: 100%;
-        max-width: 1150px;
         padding: 25px 17px 0;
       }
 
@@ -244,7 +283,7 @@ a {
     .port-4,
     .port-5,
     .port-6 {
-        width: 33%;
+        width: 33.333333%;
     }
 
 	/* ---- Float clearfix ---- */
