@@ -8,15 +8,23 @@
 
 body {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 90%;
     text-align: center;
     font-family: "Helvetica neue", sans-serif;
     line-height: 1.5;
+    color: #2f2f2f;
+    background-color: #d9e4ea;
   }
+
+h2 {
+    text-transform: uppercase;
+    font-size: .9em;
+}
 
 img {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 100%;
+    padding-top: 15px
 }
 
 ul {
@@ -36,14 +44,23 @@ a {
 .name {
     font-size: 1.5em;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .main-nav {
-    border: 5px solid red;
+    font-size: .9em;
+    margin: 0 auto;
 }
 
-.main-nav li {
-    border: 5px solid blue;
+.main-nav a {
+    color: #2f2f2f;
+    background-color: whitesmoke;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.main-nav a:hover {
+    color: skyblue;
 }
 
 .main-nav,
@@ -59,6 +76,51 @@ footer ul {
 
 footer li {
     border: 5px solid blue;
+}
+/* Profile Image and Intro */
+
+.profile-image {
+    margin-top: 25px;
+}
+
+.intro {
+    margin-bottom: 50px;
+}
+
+/* Layout Containers */
+
+.portfolio {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.portfolio p {
+    padding: 0 20px;
+}
+
+.main-content {
+    padding: 50px 0;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.footer-nav {
+    padding: 25px 0 38px;
+    border-top: 2px solid #2f2f2f;
+    display: block;
+}
+
+.footer-nav a {
+    text-transform: uppercase;
+    color: #2f2f2f;
+    font-size: .8em;
+}
+
+.footer-nav a:hover {
+    color: skyblue;
 }
 
 /* ================================= 

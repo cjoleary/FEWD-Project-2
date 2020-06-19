@@ -10,52 +10,58 @@
     </head>
 
     <body>
-        <header class="main-header">
-            <div>
+        <header>
+            <div class="main-header">
                 <h1 class="name">C.J. O'Leary</h1>
                 <nav class="main-nav">
-                        <a href="index.html">Home</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Contact</a>
+                        <a href="index.html"><strong>Home</strong></a>
+                        <a href="#portfolio"><strong>Portfolio</strong></a>
+                        <a href="#footer"><strong>Contact</strong></a>
                 </nav> 
 
                 <img src="images/responsive-layout-profile.png" alt="Picture of C.J. O'Leary" class="profile-image">
-                <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all of my skills to use!</p>
+                <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all of my skills to use!</p>
             </div>
         </header>
         <main>
-            <section>
+            <section id="portfolio" class="portfolio">
                 <h2>Portfolio</h2>
-                <img src="images/portfolio-1.png" alt="Image of a Marketing Page">
-                    <h3>Marketing Page</h3>
-                    <p>This project shows the front page of a marketing website meant for a business I'm interested in.</p>
-                <img src="images/portfolio-2.png" alt="Image of a Search Page">
-                    <h3>Search Page</h3>
-                    <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-                <img src="images/portfolio-3.png" alt="Image of a Travel App">
-                    <h3>Travel App</h3>
-                    <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-                <img src="images/portfolio-4.png" alt="Image of a Map">
-                    <h3>Map of Favorite Spots</h3>
-                    <p>This project uses mapping apis to plot points of my favorite spot in the city for a do it yourself walking tour.</p>
-                <img src="images/portfolio-5.png" alt="Image of a Photo Gallery">
-                    <h3>Photo Gallery</h3>
-                    <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-                <img src="images/portfolio-6.png" alt="Image of a Calculator">
-                    <h3>Calculator</h3>
-                    <p>Someone can enter in the numbers if they want, and press the big blue button to get the result.</p>
+                <div class="main-content">
+                    <img src="images/portfolio-1.png" alt="Image of a Marketing Page">
+                        <h3>Marketing Page</h3>
+                        <p>This project shows the front page of a marketing website meant for a business I'm interested in.</p>
+                    <img src="images/portfolio-2.png" alt="Image of a Search Page">
+                        <h3>Search Page</h3>
+                        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+                    <img src="images/portfolio-3.png" alt="Image of a Travel App">
+                        <h3>Travel App</h3>
+                        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+                    <img src="images/portfolio-4.png" alt="Image of a Map">
+                        <h3>Map of Favorite Spots</h3>
+                        <p>This project uses mapping apis to plot points of my favorite spot in the city for a do it yourself walking tour.</p>
+                    <img src="images/portfolio-5.png" alt="Image of a Photo Gallery">
+                        <h3>Photo Gallery</h3>
+                        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+                    <img src="images/portfolio-6.png" alt="Image of a Calculator">
+                        <h3>Calculator</h3>
+                        <p>Someone can enter in the numbers if they want, and press the big blue button to get the result.</p>
+                </div>
             </section>
         </main>
     </body>
 
-    <footer>
-        <h2>Contact</h2>
+    <footer id="footer">
+        <div class="contact">
+            <h2>Contact</h2>
             <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <p>Phone <strong> +1 &lpar;111&rpar; 555-1234</strong></p>
             <p>Email <strong>email&commat;yoursite.com</strong></p>
-        <uL>
-            <li><a href="index.html">C.J. O'Leary</a></li>
-            <li><a href="#">Back to Top</a></li>
-        </uL>
+        </div>
+        <div class="footer-nav clearfix">
+            <p><strong>C.J. O'Leary</strong></p>
+            <nav>
+                <a href="#"><strong>Back to Top</strong></a>
+            </nav>
+        </div>
     </footer>
 </html>
