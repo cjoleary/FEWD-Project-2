@@ -44,7 +44,7 @@ a {
 .name {
     font-size: 1.5em;
     margin: 0 auto;
-    padding: 10px;
+    padding: 15px;
 }
 
 .main-nav {
@@ -56,7 +56,7 @@ a {
     color: #2f2f2f;
     background-color: whitesmoke;
     padding: 10px 0;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .main-nav a:hover {
@@ -81,6 +81,7 @@ footer li {
 
 .profile-image {
     margin-top: 25px;
+    width: 70%;
 }
 
 .intro {
