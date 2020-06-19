@@ -8,7 +8,7 @@
 
 body {
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 95%;
     text-align: center;
     font-family: "Helvetica neue", sans-serif;
     line-height: 1.5;
@@ -50,6 +50,7 @@ a {
 .main-nav {
     font-size: .9em;
     margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .main-nav a {
@@ -67,16 +68,8 @@ a {
 .main-nav a {
     display: block;
     text-align: center;
-    text-transform: uppercase;
 }
 
-footer ul {
-    border: 5px solid red;
-}
-
-footer li {
-    border: 5px solid blue;
-}
 /* Profile Image and Intro */
 
 .profile-image {
@@ -104,12 +97,17 @@ footer li {
     padding: 50px 0;
 }
 
+.col{
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
 .contact {
     padding: 50px 0;
 }
 
 .footer-nav {
-    padding: 25px 0 38px;
+    padding: 25px 0 12px;
     border-top: 2px solid #2f2f2f;
     display: block;
 }
@@ -124,14 +122,95 @@ footer li {
     color: skyblue;
 }
 
+.footer-menu {
+    margin-left: 2000px;
+}
+
+.footer-name {
+    float: left;
+}
+
+.back-to-top {
+    float: right;
+    margin-top: 20px;
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
 
 @media (min-width: 768px) {
 
-    body {
+    /* body {
         border: 5px solid green;
+    } */
+
+    .main-nav a {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #d9e4ea;
+    }
+
+    .profile-image {
+        float: right;
+        width: 40%;
+        padding-left: 20px;
+        margin-top: 0;
+        margin-bottom: 45px;
+    }
+
+    .intro {
+        float: left;
+        width: 60%;
+        text-align: left;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .portfolio {
+        padding: 25px 11px 0;
+    }
+
+    .main-content {
+        padding: 10px 0;
+    }
+
+    .port-1,
+    .port-3,
+    .port-5 {
+        float: left;
+        width: 50%;
+    }
+
+    .port-2,
+    .port-4,
+    .port-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .footer-nav {
+        padding: 25px 0;
+    }
+
+    .footer-name {
+        float: left;
+    }
+
+    .footer-menu {
+        float: right;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .footer-menu a {
+        display: inline-block;
+        padding-left: 20px;
+    }
+
+    .back-to-top {
+        display: none;
     }
 
 	/* ---- Float clearfix ---- */
@@ -145,11 +224,34 @@ footer li {
 
 @media (min-width: 1024px) {
 
-    body {
+    /* body {
         border: 10px solid yellow
+    } */
+
+    .header {
+        padding: 0 25px;
     }
 
+    .intro {
+        font-size: 1.5em;
+    }
 
+    .portfolio {
+        width: 100%;
+        max-width: 1150px;
+        padding: 25px 17px 0;
+      }
+
+    .port-1,
+    .port-2,
+    .port-3,
+    .port-4,
+    .port-5,
+    .port-6 {
+        width: 33%;
+    }
+
+  
 	/* ---- Float clearfix ---- */
 
 	.clearfix::after {
