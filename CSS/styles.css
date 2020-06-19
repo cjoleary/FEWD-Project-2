@@ -206,6 +206,10 @@ a {
         width: 50%;
     }
 
+    .skills {
+        max-width: 60%;
+    }
+
     .footer-nav {
         padding: 25px 0;
     }
@@ -285,6 +289,7 @@ a {
     .port-6 {
         width: 33.333333%;
     }
+
 
 	/* ---- Float clearfix ---- */
 
