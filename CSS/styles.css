@@ -86,15 +86,15 @@ a {
 .portfolio {
     background-color: whitesmoke;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .portfolio p {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .main-content {
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 .col{
@@ -224,10 +224,6 @@ a {
 
 @media (min-width: 1024px) {
 
-    /* body {
-        border: 10px solid yellow
-    } */
-
     .header {
         padding: 0 25px;
     }
@@ -251,7 +247,6 @@ a {
         width: 33%;
     }
 
-  
 	/* ---- Float clearfix ---- */
 
 	.clearfix::after {
