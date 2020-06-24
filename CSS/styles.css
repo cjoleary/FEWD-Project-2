@@ -290,13 +290,4 @@ a {
     .port-6 {
         width: 33.333333%;
     }
-
-
-	/* ---- Float clearfix ---- */
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-    }
 }
