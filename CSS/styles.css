@@ -150,6 +150,14 @@ a {
     margin-top: 20px;
 }
 
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
@@ -232,14 +240,6 @@ a {
 
     .back-to-top {
         display: none;
-    }
-
-	/* ---- Float clearfix ---- */
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
     }
 }
 
